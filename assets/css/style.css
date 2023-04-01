@@ -19,20 +19,25 @@ header {
 header ul {
     list-style-type: none;
 }
+
 main {
     text-align: center;
 }
+
 main p {
     text-align: justify;
 }
+
 section {
     display: flex;
     text-align: justify;
     background-color: black;
 }
+
 h2 {
     text-align: center;
 }
+
 h3 {
     color: white;
     font-size: 40px;
@@ -48,6 +53,7 @@ h3 {
     background-color: black;
     text-align: center;
 }
+
 h6 {
     color: white;
     font-size: 40px;
