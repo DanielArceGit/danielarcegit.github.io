@@ -1,0 +1,45 @@
+[33mcommit a2208078cfd28613e440763d93f4e42f7aed1255[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: DanielArce <daniel.eliseo.89@gmail.com>
+Date:   Tue Jun 6 21:32:56 2023 -0400
+
+    se modifica H1
+
+[33mcommit 87c92c1a5950098de483f07f4427956505678d84[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 0cdad1e 119730f
+Author: DanielArce <daniel.eliseo.89@gmail.com>
+Date:   Tue Jun 6 21:31:51 2023 -0400
+
+    Merge branch 'main' of github.com:DanielArceGit/danielarcegit.github.io
+
+[33mcommit 0cdad1e433b75742117efcbf748d3557b6b1751c[m
+Author: DanielArce <daniel.eliseo.89@gmail.com>
+Date:   Tue Jun 6 21:27:12 2023 -0400
+
+    se modifica h1, se agregan documentos en main (estudios) y 1 párrafo
+
+[33mcommit 119730fe58c4b14b0ad83d9e845a50c12c80e4ce[m
+Merge: bfaf0af 1ef0892
+Author: DanielArceGit <128558047+DanielArceGit@users.noreply.github.com>
+Date:   Thu Apr 6 00:04:55 2023 -0400
+
+    Merge pull request #1 from vichiPaz/main
+    
+    nueva fuente y ortografía
+
+[33mcommit 1ef08925baaae13b38fec24ba2f3911fbce432e2[m
+Author: Vale Troncoso <valentina.troncosom@gmail.com>
+Date:   Wed Apr 5 00:33:51 2023 -0400
+
+    nueva fuente y ortografía
+
+[33mcommit bfaf0af0a1f89e12db8f40f815f1df82a674cdb9[m
+Author: DanielArce <daniel.eliseo.89@gmail.com>
+Date:   Fri Mar 31 23:01:19 2023 -0300
+
+    Se corrigen errores ortográficos y de redacción
+
+[33mcommit 9e74c5af21e5ae71887946fe3442d34f68be82c4[m
+Author: DanielArce <daniel.eliseo.89@gmail.com>
+Date:   Thu Mar 30 23:25:11 2023 -0300
+
+    first commit
