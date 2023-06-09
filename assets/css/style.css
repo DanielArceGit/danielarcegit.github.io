@@ -77,3 +77,7 @@ footer {
 footer img {
     width: 4rem;
 }
+
+footer p {
+    margin: 0px;
+}
