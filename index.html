@@ -24,18 +24,34 @@
 </head>
 
 <body>
-    <!-- navar -->
+    <!-- agregue los navs link a tus "apartados" -->
     <nav class="navbar bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand">
-                <img class="rounded" src="assets/logo/logo.png" alt="logo alce">
-            </a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
+        <div class="container-fluid d-flex justify-content-end">
+          <a class="navbar-brand me-auto" href="#">
+            <img class="rounded" src="assets/logo/logo.png" alt="logo alce">
+          </a>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experiencia laboral</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#repositories">Muestra de repositorios</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
         </div>
-    </nav>
+      </nav>
+      
+          
 
     <!-- Header -->
     <header class="p-3">
@@ -49,9 +65,9 @@
 
     <!-- main -->
     <main class="row m-4">
-        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
-            <i class="fa-sharp fa-solid fa-eye fa-4x"></i>
-            <h2>Acerca de mí</h2>
+        <div class="col-12 col-6 col-md-4 mt-5">
+            <i class="fas fa-eye fa-4x"></i>
+            <h2 id="about">Acerca de mí</h2>
             <hr>
             <p>Soy una persona apasionada por la tecnología. Desde pequeño me encantaron los computadores, los
                 videojuegos y el uso de programas. Siempre estoy al tanto de las noticias en el mundo de la tecnología.
@@ -62,9 +78,9 @@
             </p>
             <p>En mi trabajo, soy muy meticuloso y siempre me esfuerzo por mantener un alto nivel de orden y estética. Me aseguro de que todo esté en su lugar y de que tenga una apariencia atractiva para que sea bien visto por cualquier persona que lo observe.</p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+        <div class="col-12 col-6 col-md-4 mt-5">
             <i class="fa-solid fa-briefcase fa-4x"></i>
-            <h2>Experiencia Laboral</h2>
+            <h2 id="experience">Experiencia Laboral</h2>
             <hr>
             <ul>
                 <li>Dirección General de Aeronáutica Civil Chile</li>
@@ -82,9 +98,9 @@
                 de antecedentes y la autorización de dichas licencias.
             </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+        <div class="col-12 col-6 col-md-4 mt-5">
             <i class="fa-solid fa-graduation-cap fa-4x"></i>
-            <h2>Estudios</h2>
+            <h2 id="education">Estudios</h2>
             <hr>
             <p><a href="./assets/documents/1-titulo-comunicacion-audiovisual.pdf" target="_blank" rel="noopener noreferrer">2011 - 2015: Carrera de Comunicación Audiovisual Digital en el Instituto Profesional Santo Tomás,
                 egresado con título.</a></p>
@@ -94,9 +110,9 @@
     </main>
 
     <!-- section -->
-    <h3 class="pt-3 pb-1">Muestras de repositorios</h3>
+    <h3 id="repositories" class="pt-3 pb-1">Muestras de repositorios</h3>
     <section class="row justify-content-center">
-        <div class="card col-xs-12 col-sm-6 col-md-4 m-3" style="width: 22rem;">
+        <div class="card col-12 col-6 col-md-4 m-3" style="width: 22rem;">
             <img src="assets/img/repositorio1.JPG" class="card-img-top" alt="captura repositorio 1">
             <div class="card-body">
                 <h5 class="card-title">HTML</h5>
@@ -105,7 +121,7 @@
                     rel="noopener noreferrer">Ir a GitHub</a>
             </div>
         </div>
-        <div class="card col-xs-12 col-sm-6 col-md-4 m-3" style="width: 22rem;">
+        <div class="card col-12 col-6 col-md-4 m-3" style="width: 22rem;">
             <img src="assets/img/repositorio2.JPG" class="card-img-top" alt="captura repositorio 2">
             <div class="card-body">
                 <h5 class="card-title">CSS</h5>
@@ -115,7 +131,7 @@
                     rel="noopener noreferrer">Ir a GitHub</a>
             </div>
         </div>
-        <div class="card col-xs-12 col-sm-6 col-md-4 m-3" style="width: 22rem;">
+        <div class="card col-12 col-6 col-md-4 m-3" style="width: 22rem;">
             <img src="assets/img/repositorio3.JPG" class="card-img-top" alt="captura repositorio 3">
             <div class="card-body">
                 <h5 class="card-title">Alineación de contenido con Flex</h5>
@@ -125,7 +141,7 @@
                     target="_blank" rel="noopener noreferrer">Ir a GitHub</a>
             </div>
         </div>
-        <div class="card col-xs-12 col-sm-6 col-md-4 m-3" style="width: 22rem;">
+        <div class="card col-12 col-6 col-md-4 m-3" style="width: 22rem;">
             <img src="assets/img/repositorio4.JPG" class="card-img-top" alt="captura repositorio 4">
             <div class="card-body">
                 <h5 class="card-title">Boostrap</h5>
@@ -135,7 +151,7 @@
                     rel="noopener noreferrer">Ir a GitHub</a>
             </div>
         </div>
-        <div class="card col-xs-12 col-sm-6 col-md-4 m-3" style="width: 22rem;">
+        <div class="card col-12 col-6 col-md-4 m-3" style="width: 22rem;">
             <img src="assets/img/repositorio5.JPG" class="card-img-top" alt="captura repositorio 5">
             <div class="card-body">
                 <h5 class="card-title">GitHub</h5>
