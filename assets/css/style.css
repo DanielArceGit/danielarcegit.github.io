@@ -81,3 +81,12 @@ footer img {
 footer p {
     margin: 0px;
 }
+/* Agregare una animacion para tus cards*/
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
